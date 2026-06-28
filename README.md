@@ -1,16 +1,14 @@
-# CaboLingo 3.1 Home Screen Icon
+# CaboLingo 4.2 60-Second Race
 
-Upload these files to GitHub root:
-- index.html
-- manifest.json
-- apple-touch-icon.png
-- icon-192.png
-- icon-512.png
+Upload all files in the ZIP to GitHub root.
 
-After Amplify deploys:
-1. Open https://cabolingo.com/?v=31 on iPhone Safari.
-2. Tap Share.
-3. Tap Add to Home Screen.
-4. The CaboLingo icon should appear.
+Adds:
+- 60-Second Race: both phones, same words, same timer.
+- One phone starts the race, the other joins.
+- The game speaks the Spanish phrase.
+- Each person chooses the English meaning on their own phone.
+- Scores update through Firebase.
+- Correct answers mark phrases mastered for that player.
 
-If the old icon appears, delete the old home-screen shortcut and add it again.
+Test:
+https://cabolingo.com/?v=42
