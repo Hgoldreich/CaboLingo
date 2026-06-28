@@ -1,14 +1,11 @@
-# CaboLingo 4.2 60-Second Race
+# CaboLingo 4.2b Race Safe
 
-Upload all files in the ZIP to GitHub root.
+Upload all files to GitHub root.
 
-Adds:
-- 60-Second Race: both phones, same words, same timer.
-- One phone starts the race, the other joins.
-- The game speaks the Spanish phrase.
-- Each person chooses the English meaning on their own phone.
-- Scores update through Firebase.
-- Correct answers mark phrases mastered for that player.
+This is built from the last working game version and adds a safe 60-Second Race without changing the volleyball sync code.
 
 Test:
-https://cabolingo.com/?v=42
+https://cabolingo.com/?v=42b
+
+Note:
+This first race version is individual on each phone. You and Liz start at the same time and compare scores. Once stable, we can make it fully live head-to-head through Firebase.
