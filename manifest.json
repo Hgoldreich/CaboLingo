@@ -2,7 +2,7 @@
   "name": "CaboLingo",
   "short_name": "CaboLingo",
   "description": "Learn Spanish for Cabo.",
-  "start_url": "/?v=31",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",

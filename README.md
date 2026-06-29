@@ -1,10 +1,17 @@
-# CaboLingo 4.5 Stable Rollback
+# CaboLingo 4.6 Production Stable
 
 Upload all files to GitHub root.
 
-This rolls back to the last stable game build and adds only a visible phone version badge.
+Purpose:
+- Stable production version for Hilton and Liz to use daily.
+- Keeps lessons, quiz, progress, sync, home-screen icon, and stable games.
+- Adds a visible version badge on phone.
+- Manifest start_url is now "/" so the Home Screen icon opens the main app instead of an old ?v= link.
 
-Test:
-https://cabolingo.com/?v=45
+After Amplify deploys:
+1. Test https://cabolingo.com/?v=46
+2. If it works, delete the old Home Screen icon.
+3. Open https://cabolingo.com
+4. Share → Add to Home Screen.
 
-If the app opens, keep this as the stable production version before adding new multiplayer games.
+Do not add experimental games to production. Build them on dev first.
