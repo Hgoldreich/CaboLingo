@@ -1,13 +1,11 @@
-# CaboLingo 4.8 Game History
+# CaboLingo 4.9 Happy Buttons Fixed
 
 Upload all files to GitHub root.
 
-Changes:
-- Happy Hour Listen Mode is now 2 minutes.
-- Incorrect answers subtract 2 seconds.
-- Every completed Happy Hour game is saved.
-- Game History lists prior games by game.
-- Game detail shows all phrases, correct/missed, and missed words review.
+Fix:
+- Say it again works in Happy Hour Listen Mode.
+- Show Spanish Phrase works in Happy Hour Listen Mode.
+- Uses robust delegated click handlers so buttons still work after the screen re-renders.
 
 Test:
-https://cabolingo.com/?v=48
+https://cabolingo.com/?v=49
