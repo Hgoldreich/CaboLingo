@@ -1,17 +1,13 @@
-# CaboLingo 4.6 Production Stable
+# CaboLingo 4.8 Game History
 
 Upload all files to GitHub root.
 
-Purpose:
-- Stable production version for Hilton and Liz to use daily.
-- Keeps lessons, quiz, progress, sync, home-screen icon, and stable games.
-- Adds a visible version badge on phone.
-- Manifest start_url is now "/" so the Home Screen icon opens the main app instead of an old ?v= link.
+Changes:
+- Happy Hour Listen Mode is now 2 minutes.
+- Incorrect answers subtract 2 seconds.
+- Every completed Happy Hour game is saved.
+- Game History lists prior games by game.
+- Game detail shows all phrases, correct/missed, and missed words review.
 
-After Amplify deploys:
-1. Test https://cabolingo.com/?v=46
-2. If it works, delete the old Home Screen icon.
-3. Open https://cabolingo.com
-4. Share → Add to Home Screen.
-
-Do not add experimental games to production. Build them on dev first.
+Test:
+https://cabolingo.com/?v=48
